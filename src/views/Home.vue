@@ -72,3 +72,30 @@
     </div>
   </main>
 </template>
+
+<script>
+import axios from 'axios'
+export default {
+    data() {
+        return {
+            discord_user: null,
+            token: "ODgzMDc4MjE0ODcwNzg2MDQ4.GIHSVn.JWNYbaRu4s5F793jqg13LrYxEwnltn0Peom41s"
+        }
+    },
+    methods: {
+        async fetchDiscordUser(id) {
+            let response = await axios.get(`https://discord.com/api/v10/users/${id}`, {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bot ${this.token}`
+                }
+            })
+            return response
+        }
+    },
+    async mounted() {
+        console.log(await this.fetchDiscordUser('597434541719945237'))
+    }
+
+}
+</script>
