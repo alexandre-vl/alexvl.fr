@@ -1,9 +1,9 @@
 
 <template>
-  <main class="h-screen w-full flex items-center justify-center gap-2">
+  <main class="h-full lg:h-screen py-20 lg:py-0 w-full flex items-center justify-center gap-2 px-5">
     <div class="w-fit flex flex-col gap-10">
         <div class="flex items-center justify-center flex-col gap-2">
-            <img width="48" height="48" alt="Logo Alexandre Vargas Lopez" src="@/assets/logo.png" class="w-12 h-12 cursor-pointer hover:drop-shadow-md transition-all" />
+            <img width="48" height="48" alt="Logo Alexandre Vargas Lopez" loading="lazy" src="@/assets/logo.png" class="w-12 h-12 cursor-pointer hover:drop-shadow-md transition-all" />
             <div class="flex items-center gap-2 justify-center">
                 <a href="https://github.com/alexandre-vl" target="_blank">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="text-muted-foreground hover:text-foreground transition-all w-6 h-6" xmlns="http://www.w3.org/2000/svg">
@@ -23,42 +23,50 @@
                 </a>
             </div>
         </div>
-        <div class="flex gap-3 items-center flex-wrap w-full justify-center">
-            <a href="https://www.devolab.net" target="_blank" alt="DevoLab Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:shadow-xl hover:border-secondary transition-all flex flex-col gap-4 h-80 w-full md:w-[28rem] overflow-hidden">
+        <div class="flex gap-3 items-center flex-wrap w-full justify-center max-w-6xl h-fit">
+            <a href="https://www.devolab.net" target="_blank" alt="DevoLab Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:shadow-xl hover:border-secondary transition-all flex flex-col gap-8 h-80 w-full md:w-[28rem] overflow-hidden">
                 <div class="flex gap-4 items-center">
                     <div class="flex flex-col">
                         <h1 class="text-white">Devolab.net</h1>
                         <p class="text-muted-foreground">The web agency for the creation of your websites.</p>
                     </div>
                 </div>
-                <img alt="Website Github" src="@/assets/screenshot/devolab.net.png" class="w-96 h-full object-cover rounded-t-lg" />
+                <div class="flex items-center justify-center w-full h-full">
+                    <img width="382" height="222" alt="Website Github" loading="lazy" src="@/assets/screenshot/devolab.net.png" class="w-96 h-full object-cover rounded-t-lg" />
+                </div>
             </a>
-            <a href="https://upsky.io" target="_blank" alt="Upsky Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:shadow-xl hover:border-secondary transition-all flex flex-col gap-4 h-80 w-full md:w-[28rem] overflow-hidden">
+            <a href="https://upsky.io" target="_blank" alt="Upsky Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:shadow-xl hover:border-secondary transition-all flex flex-col gap-8 h-80 w-full md:w-[28rem] overflow-hidden">
                 <div class="flex gap-4 items-center">
                     <div class="flex flex-col">
                         <h1 class="text-white">Upsky.io</h1>
                         <p class="text-muted-foreground">Trade and follow to make profit securely.</p>
                     </div>
                 </div>
-                <img alt="Website Github" src="@/assets/screenshot/upsky.io.png" class="w-96 h-full object-cover rounded-t-lg" />
+                <div class="flex items-center justify-center w-full h-full">
+                    <img width="382" height="222" alt="Website Github" loading="lazy" src="@/assets/screenshot/upsky.io.png" class="w-96 h-full object-cover rounded-t-lg" />
+                </div>
             </a>
-            <a href="https://yaprof.fr" target="_blank" alt="Yaprof Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:shadow-xl hover:border-secondary transition-all flex flex-col gap-4 h-80 w-full md:w-[28rem] overflow-hidden">
+            <a href="https://yaprof.fr" target="_blank" alt="Yaprof Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:shadow-xl hover:border-secondary transition-all flex flex-col gap-8 h-80 w-full md:w-[28rem] overflow-hidden">
                 <div class="flex gap-4 items-center">
                     <div class="flex flex-col">
                         <h1 class="text-white">Yaprof.fr</h1>
                         <p class="text-muted-foreground">The Pronote student tool as a mobile application.</p>
                     </div>
                 </div>
-                <img alt="Website Github" src="@/assets/screenshot/yaprof.png" class="w-96 h-full object-cover rounded-t-lg" />
+                <div class="flex items-center justify-center w-full h-full">
+                    <img width="382" height="222" alt="Website Github" loading="lazy" src="@/assets/screenshot/yaprof.png" class="w-96 h-full object-cover rounded-t-lg" />
+                </div>
             </a>
-            <a href="https://discord.gg/homeflix" target="_blank" alt="Homeflix Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:shadow-xl hover:border-secondary transition-all flex flex-col gap-4 h-80 w-full md:w-[28rem] overflow-hidden">
+            <a href="https://discord.gg/homeflix" target="_blank" alt="Homeflix Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:shadow-xl hover:border-secondary transition-all flex flex-col gap-8 h-80 w-full md:w-[28rem] overflow-hidden">
                 <div class="flex gap-4 items-center">
                     <div class="flex flex-col">
                         <h1 class="text-white">Discord.gg/homeflix</h1>
                         <p class="text-muted-foreground">The Discord bot for streaming high-quality movies.</p>
                     </div>
                 </div>
-                <img alt="Website Github" src="@/assets/screenshot/homeflix.png" class="w-96 h-full object-cover rounded-t-lg" />
+                <div class="flex items-center justify-center w-full h-full">
+                    <img width="382" height="222" alt="Website Github" loading="lazy" src="@/assets/screenshot/homeflix.png" class="w-96 h-full object-cover rounded-t-lg" />
+                </div>
             </a>
         </div>
     </div>
