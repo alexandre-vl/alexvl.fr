@@ -1,3 +1,4 @@
+@import url('./transitions.css');
 @import url('https://fonts.cdnfonts.com/css/sf-ui-text-2');
 @import url('https://fonts.cdnfonts.com/css/sf-ui-display');
 
@@ -27,4 +28,3 @@ h1, h2, h3 {
     font-size: 20px;
     font-weight: 700;
 }
-

@@ -1,0 +1,14 @@
+/* Transition slide up */
+
+.slide-up-enter-active,
+.slide-up-leave-active {
+    transition: all 0.1s;
+}
+.slide-up-enter-from{
+    opacity: 0.5;
+    transform: translate3d(0, 0.5rem, 0);
+}
+.slide-up-leave-to {
+    opacity: 0;
+    transform: translate3d(0, 0.5rem, 0);
+}
