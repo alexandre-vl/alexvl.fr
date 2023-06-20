@@ -47,7 +47,7 @@
                         <img width="382" height="222" alt="Website Github" loading="lazy" src="@/assets/screenshot/homeflix.webp" class="w-96 h-full object-cover rounded-t-lg" />
                     </div>
                 </a>
-                <a v-if="loaded" href="" target="_blank" alt="Playbot Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:border-secondary hover:shadow-2xl transition-all flex flex-col gap-8 h-80 w-full md:w-[28rem] overflow-hidden bg-opacity-40 backdrop-blur-2xl">
+                <a v-if="loaded" alt="Playbot Alexandre VARGAS LOPEZ" class="px-8 pt-5 rounded-lg border-[1px] border-input bg-card cursor-pointer hover:border-secondary hover:shadow-2xl transition-all flex flex-col gap-8 h-80 w-full md:w-[28rem] overflow-hidden bg-opacity-40 backdrop-blur-2xl">
                     <div class="flex gap-4 items-center">
                         <div class="flex flex-col">
                             <h1 class="text-white">Playbot</h1>
