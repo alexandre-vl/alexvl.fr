@@ -1,5 +1,5 @@
 <template>
-    <header class="h-full lg:h-screen py-20 lg:py-0 w-full flex items-center justify-center gap-2 px-5 z-10">
+    <header class="h-full min-h-full lg:min-h-screen py-20 lg:pb-20 w-full flex items-center justify-center gap-2 px-5 z-10">
         <div class="w-fit flex flex-col gap-10">
             <div class="flex items-center justify-center flex-col gap-2">
                 <RouterLink to="/" >
