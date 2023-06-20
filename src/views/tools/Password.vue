@@ -5,7 +5,7 @@
             <Transition name="slide-up">
                 <p v-if="copied" class="text-green-400 bg-input py-2.5 px-5 rounded-lg absolute -top-2 left-auto shadow-2xl select-none">Copied</p>
             </Transition>
-            <input @focus="selectAndCopy" id="input-password" type="text" class="bg-card border-[1xp] rounded-lg border-input py-2.5 px-5 text-foreground outline-none focus:ring-1 focus:ring-muted-foreground w-72" :value="password" placeholder="Loading..." />
+            <input @focus="selectAndCopy" id="input-password" type="text" class="bg-card border-[1px] rounded-lg border-input py-2.5 px-5 text-foreground outline-none focus:ring-1 focus:ring-muted-foreground w-72 hover:shadow-xl transition-all overflow-hidden bg-opacity-40 backdrop-blur-2xl" :value="password" placeholder="Loading..." />
             <button @click="generatePassword(22)" class="text-muted-foreground py-2.5 pb-5 pt-2">Generate new</button>
         </div>
     </main>
