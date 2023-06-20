@@ -15,6 +15,9 @@ module.exports = {
                 "pink": "#B468D5",
                 "secondary": "#6364C8",
                 "input" : "#1D283A"
+            },
+            backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
             }
         },
     },
