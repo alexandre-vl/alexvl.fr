@@ -12,3 +12,15 @@
     opacity: 0;
     transform: translate3d(0, 0.5rem, 0);
 }
+
+@keyframes typing {
+    0% {
+        border-right-color: rgb(255, 255, 255, .5);
+    }
+    50% {
+        border-right-color: rgb(255, 255, 255, 0);
+    }
+    100% {
+        border-right-color: rgb(255, 255, 255, .5);
+    }
+}

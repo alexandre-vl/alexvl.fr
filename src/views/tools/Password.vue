@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="flex flex-col items-center gap-2 relative">
+        <div class="flex flex-col items-center gap-2 relative max-w-6xl h-fit">
             <h1 class="text-foreground pb-2">Password Generator</h1>
             <Transition name="slide-up">
                 <p v-if="copied" class="text-green-400 bg-input py-2.5 px-5 rounded-lg absolute -top-2 left-auto shadow-2xl select-none">Copied</p>
