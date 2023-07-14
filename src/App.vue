@@ -1,9 +1,9 @@
 <template>
     <header class="h-full min-h-full lg:min-h-screen py-20 lg:pb-20 w-full flex items-center justify-center gap-2 px-5 z-10">
         <div class="w-fit flex flex-col gap-10">
-            <div class="flex items-center justify-center flex-col gap-2">
-                <RouterLink to="/" >
-                    <img width="48" height="48" alt="Logo Alexandre Vargas Lopez" loading="lazy" src="@/assets/logo.webp" class="w-12 h-12 cursor-pointer hover:drop-shadow-md transition-all" />
+            <div class="flex items-center justify-center flex-col gap-2 z-40">
+                <RouterLink to="/" class="group" >
+                    <img width="48" height="48" alt="Logo Alexandre Vargas Lopez" loading="lazy" src="@/assets/logo.webp" class="w-12 h-12 cursor-pointer hover:drop-shadow-md transition-all group-active:scale-95" />
                 </RouterLink>
                 <div class="flex items-center gap-2 justify-center">
                     <a aria-label="Github page alexandre vargas lopez" alt="Github page alexandre vargas lopez" href="https://github.com/alexandre-vl" target="_blank">
