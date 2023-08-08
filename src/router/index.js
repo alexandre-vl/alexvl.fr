@@ -24,6 +24,11 @@ const router = createRouter({
             path: '/typing',
             name: 'typing',
             component: () => import('../views/tools/Typing.vue'),
+        },
+        {
+          path: '/ip',
+          name: 'ip',
+          component: () => import('../views/tools/Ip.vue'),
         }
     ]
 })
