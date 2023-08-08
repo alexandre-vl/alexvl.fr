@@ -26,7 +26,7 @@ const router = createRouter({
             component: () => import('../views/tools/Typing.vue'),
         },
         {
-          path: '/ip',
+          path: '/me',
           name: 'ip',
           component: () => import('../views/tools/Ip.vue'),
         }
