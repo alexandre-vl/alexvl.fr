@@ -4,8 +4,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite preview --host --port 3042",
-        "preview": "vite preview"
+        "build": "vite build",
+        "preview": "vite preview --host --port 3042"
     },
     "dependencies": {
         "axios": "^1.4.0",
