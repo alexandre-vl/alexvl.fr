@@ -6,4 +6,4 @@ RUN --mount=type=cache,target=/root/.npm npm i
 COPY . .
 RUN npm run build
 EXPOSE ${PORT}
-ENTRYPOINT ["vite", "preview", "--host", "--port", "3042"]
+CMD ["npm", "run", "start:prod"]
