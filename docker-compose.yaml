@@ -1,0 +1,16 @@
+name: "alexvl-landing"
+
+services:
+    main:
+        container_name: alexvl-landing-main
+        build: .
+        deploy:
+            mode: global
+        restart: always
+        ports:
+            - "3042:3042"
+        logging:
+            driver: "json-file"
+            options:
+                max-size: "100m"
+                max-file: "5"
