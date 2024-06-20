@@ -1,4 +1,4 @@
-FROM node:lts-alpine as base
+FROM node:18.14.2 as base
 LABEL authors="Alexandre VARGAS LOPEZ"
 WORKDIR /app
 COPY package.json .
